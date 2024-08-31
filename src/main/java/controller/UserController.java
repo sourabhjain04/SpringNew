@@ -10,7 +10,7 @@ import model.User;
 
 @Controller
 public class UserController {
-
+// controller
 	@RequestMapping(value = "/displayForm.htm", method = RequestMethod.GET)
 	public String displayForm(Model model) {
 		System.out.println("hi");
